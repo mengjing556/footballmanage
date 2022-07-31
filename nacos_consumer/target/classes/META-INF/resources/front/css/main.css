@@ -82,7 +82,7 @@ body {
 	letter-spacing: 0px;
 }
 .cssmenu > ul > li > a:hover {
-	color: #2166s9;
+	color: #2166a9;
 }
 .cssmenu > ul > li > ul {
 	z-index: 999;
@@ -209,7 +209,6 @@ body {
 	background-color: #2166a9;
 }
 #pull:after {
-	background:url('../img/nav-icon.png')no-repeat;
 	width: 30px;
 	content:"";
 	width: 30px;
@@ -221,7 +220,7 @@ body {
 }
 /* start main */
 .main_bg{
-	background:url(../img/bg.png) repeat #2c3947;
+	background:#2c3947;
 }
 
 .grids_1_of_3{
@@ -242,7 +241,6 @@ body {
 } 
 .images_1_of_3 {
 	width: 20%;
-	background:url(../img/right.jpg) no-repeat right;
 }
 
 .business{
@@ -460,7 +458,7 @@ body {
 		margin-left: 0%;
 	}
 	.main_bg{
-		background:url(../img/bg.png) repeat #2166a9;
+		background:#2166a9;
 	}
 
 	.grids_1_of_3 img{
@@ -590,7 +588,6 @@ body {
 }
 
 #fwslider .slidePrev span {
-	background-image: url("../img/arrows.png");
 	width: 45px;
 	height: 45px;
 	float: left;
@@ -610,7 +607,6 @@ body {
 }
 
 #fwslider .slideNext span {
-    background-image:url("../img/arrows.png");
     width:45px;
     height:45px;
     float:left;
@@ -663,7 +659,6 @@ img{
 /*二级页样式*/
 .second_banner{
 	text-align:center;
-	background:url(../img/bg2.jpg) repeat-x;
 }
 
 .second_banner_img{
@@ -706,7 +701,6 @@ img{
 	border-bottom:1px solid #ccc;
 	color:#2166a9;
 	font-size:24px;
-	background:url(../img/icon.png) no-repeat 10px;
 	padding-left:42px;
 }
 .menu_title span{
@@ -980,7 +974,6 @@ body {
 }
 
 #fwslider .slidePrev span {
-	background-image: url("../img/arrows.png");
 	width: 45px;
 	height: 45px;
 	float: left;
@@ -1000,7 +993,6 @@ body {
 }
 
 #fwslider .slideNext span {
-    background-image:url("../img/arrows.png");
     width:45px;
     height:45px;
     float:left;
@@ -1250,7 +1242,7 @@ html { overflow-y: scroll; }
 		position:relative;
 		left:0;
 		margin:0;
-		padding:2% 0x;
+		padding:20px;
 	}
 	
 	.gulid p{
@@ -1446,7 +1438,6 @@ a:hover {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	border-bottom: 1px solid #dddddd;
-	background: url(../img/qq-icon-bg.png) no-repeat center 8px;
 }
 .main-im .img-qq {
 	max-width: 60px;
@@ -1498,7 +1489,6 @@ a:hover {
 	border-right: 1px solid #dddddd;
 	background: #f5f5f5;
 	border-bottom-left-radius: 10px;
-	background: url(../img/weixing-icon.png) no-repeat center center;
 	float:left;
 }
 .main-im .im_main .weixing-show {
@@ -1551,7 +1541,6 @@ a:hover {
 	height: 47px;
 	background: #f5f5f5;
 	border-bottom-right-radius: 10px;
-	background: url(../img/toTop-icon.png) no-repeat center center;
 	float:right;
 }
 .main-im .im_main .go-top a {
@@ -1571,7 +1560,6 @@ a:hover {
 	display: block;
 	width: 24px;
 	height: 24px;
-	background: url(../img/close_im.png) no-repeat left top;
 }
 .main-im .close-im a:hover {
 	text-decoration: none;
@@ -1581,6 +1569,5 @@ a:hover {
 	
 	width: 40px;
 	height: 133px;
-	background: url(../img/open_im.png) no-repeat left top;
 }
 
