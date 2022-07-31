@@ -1,0 +1,13 @@
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\controller\IndexController.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\service\impl\ConsumerServiceImpl.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\utils\Function.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\controller\NewsController.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\service\NewsService.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\entity\News.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\mapper\NewsMapper.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\NacosConsumerApplication.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\service\impl\NewsServiceImpl.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\service\feign\ProviderFeign.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\controller\ConsumerController.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\service\ConsumerService.java
+D:\IDEA\cloudproject\nacos_consumer\src\main\java\com\meng\nacos_consumer\entity\User.java

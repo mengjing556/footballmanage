@@ -8,6 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>nacos_provider</name>
 	<description>nacos_provider</description>
+	<packaging>jar</packaging>
 
 	<parent>
 		<groupId>com.meng</groupId>
