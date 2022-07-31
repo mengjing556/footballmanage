@@ -1,0 +1,125 @@
+/*project.css*/
+.project{
+	width:100%;/*宽度：100%*/
+	background-color:#96EE11;/*背景颜色*/
+	
+}
+.project h2{
+	padding:40px 0;/*上右下左 2个数：上下 左右*/
+	text-align: center;
+	font-weight: 500;
+	letter-spacing:10px;/*文字的间距*/
+	font-size:30px;/*font 字体 size大小*/
+}
+.project ul{
+	width:1680px;/*宽度：100%*/
+	height:340px;/*高度：200px*/
+	margin:30px auto 0px auto;/*设置盒子左右外间距 */
+	padding:0px auto 30px auto;
+}
+/*
+	鼠标移动到li上，li区块慢慢往上移动，鼠标离开，li区块还原
+ */
+.project li{
+	position:relative;/*获得一个能随意移动位置的权限*/
+	top:0px;/*设置li'区块 上边位置的起点*/
+	float:left;/*让标签盒子横向排列：left从左向右 right从右向左*/
+	width:258px;
+	height:340px;
+	margin:0 10px;/*外间距：2个数：上下、左右*/
+	background-color:#f6f6f6;/*背景颜色*/
+	transition:0.5s;/*过渡：让瞬间变化的动作改成 慢慢变化*/
+}
+.project li:hover{/*:hover 检测鼠标是否过来的雷达*/
+	/*只要检测到鼠标出现在li区块的范围时，li就修改自己的CSS代码*/
+	top:-20px;
+}
+.project li .shortTrackSpeedSkating{/*找到.project里的li区块里的div盒子*/
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_1.jpeg);
+	background-size:100% 100%;
+}
+.project li .quickSkating{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_2.jpeg);
+	background-size:100% 100%;
+}
+.project li .figureSkating{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_3.jpg);
+	background-size:100% 100%;
+}
+.project li .iceHockey{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_4.jpeg);
+	background-size:100% 100%;
+}
+.project li .curling{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_5.jpeg);
+	background-size:100% 100%;
+}
+.project li .snowBoarding{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_6.jpg);
+	background-size:100% 100%;
+}
+.project li .freestyleSkiing{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_7.jpeg);
+	background-size:100% 100%;
+}
+.project li .JumpSkiing{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_8.jpg);
+	background-size:100% 100%;
+}
+.project li .crossCuntrySkiing{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_9.jpg);
+	background-size:100% 100%;
+}
+.project li .nordicBiathlon{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_10.jpg);
+	background-size:100% 100%;
+}
+.project li .winterBiathlon{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_11.jpg);
+	background-size:100% 100%;
+}
+.project li .alpineSkiing{
+	width:100%;
+	height:245px;
+	background-image:url(../img/project_img_12.jpg);
+	background-size:100% 100%;
+}
+.project li h3{
+	margin:10px;
+	font-size:14px;/*font 字体 size大小*/
+}
+.project li p{
+	margin:10px;
+	font-size:12px;/*font 字体 size大小*/
+	color:#2e2e2e;
+}
+.project li a{
+	margin:10px;
+	font-size:12px;/*font 字体 size大小*/
+	color:#0099ff;
+}
+.project li .text{
+	margin:10px;
+}

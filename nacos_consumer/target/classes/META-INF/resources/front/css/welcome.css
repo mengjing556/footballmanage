@@ -1,0 +1,111 @@
+/*welcome.css*/
+.bg{
+	background-image: url('../img/blue_sky_bg.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+	background-attachment: fixed;
+}
+.title{
+	font-family: "宋体";
+	color: red;
+	position: absolute;
+	top: 15%;
+	left: 71%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	font-size: 30px;
+	height: 40px;
+	width: 30%;
+}
+.title_result{
+	font-family: "宋体";
+	color: blue;
+	position: absolute;
+	top: 15%;
+	left: 71%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	font-size: 30px;
+	height: 40px;
+	width: 30%;
+}
+.result1{
+	font-family: "宋体";
+	color: green;
+	position: absolute;
+	top: 30%;
+	left: 76%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	font-size: 30px;
+	height: 40px;
+	width: 30%;
+}
+.result2{
+	font-family: "宋体";
+	color: red;
+	position: absolute;
+	top: 35%;
+	left: 76%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	font-size: 30px;
+	height: 40px;
+	width: 30%;
+}
+.result3{
+	font-family: "宋体";
+	color: green;
+	position: absolute;
+	top: 40%;
+	left: 76%;
+	transform: translate(-50%, -50%);  /* 使用css3的transform来实现 */
+	font-size: 30px;
+	height: 40px;
+	width: 30%;
+}
+.box{
+	background: url("../img/start_exam_button.gif") no-repeat;
+	 width: 600px;
+     height: 400px;
+	transform: translate(135%, 21%);  /* 使用css3的transform来实现 */
+}
+.return{
+	float:right;
+	letter-spacing:5px;
+    font-size:30px;
+    text-decoration:none;
+}
+.option{
+	top:25%;
+	left:70%;
+	transform: translate(56%, 175%);  /* 使用css3的transform来实现 */
+}
+div>input{
+    display: none;
+}
+div>label{
+    position: relative;
+    margin-right: 34px;
+    font-size:25px;
+}
+div>label::before{
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 219, 219);
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+div>input:checked+label::before{
+    background-color: rgb(239, 66, 56);
+}
+div>input:checked+label::after{
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    background-color: white;  
+}
